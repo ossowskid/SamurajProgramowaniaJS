@@ -38,3 +38,15 @@ cities.length;
 
 const users = [];
 users.length;
+
+const longArray = [];
+longArray.length = 100;
+
+console.log(cities[cities.length - 1]);
+
+cities[cities.length] = "Tokio";
+cities[cities.length] = "Pekin";
+
+console.log(cities);
+
+
