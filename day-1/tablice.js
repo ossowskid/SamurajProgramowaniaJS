@@ -10,3 +10,6 @@ const items = [];
 const gameItems = new Array();
 
 const colors = new Array("red", "blue");
+colors[2] = "green";
+
+console.log(colors);
