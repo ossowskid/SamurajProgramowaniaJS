@@ -31,6 +31,6 @@ let killedMonsters = 11;
 let score = killedMonsters > 10 ? 1 : 0;
 
 
-const playerName = "";
+const playerName = "Mściwoj";
 
 console.log(`Witaj ${playerName ? playerName : "nieznany wojowniku"}`);
