@@ -13,3 +13,12 @@ const colors = new Array("red", "blue");
 colors[2] = "green";
 
 console.log(colors);
+
+const myArrayConst = [];
+let myArrayLet = [];
+
+myArrayConst[0] = "Pierwszy const";
+myArrayLet[0] = "Pierwszy let";
+
+// myArrayConst = "coś innego1";
+myArrayLet = "coś innego2";
