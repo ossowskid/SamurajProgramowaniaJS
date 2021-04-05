@@ -18,9 +18,19 @@ switch (dayOfTheWeek) {
         break;
 }
 
-const score = 100;
-20 === "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo nie jest prawidzy");
+// const score = 100;
+// 20 === "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo nie jest prawidzy");
 
-false || true ? console.log("prawda") : console.log("fałsz");
+// false || true ? console.log("prawda") : console.log("fałsz");
 
-score > 120 ? console.log("prawda1") : console.log("fałsz2");
+// score > 120 ? console.log("prawda1") : console.log("fałsz2");
+
+
+let gameResult = 0;
+let killedMonsters = 11;
+let score = killedMonsters > 10 ? 1 : 0;
+
+
+const playerName = "";
+
+console.log(`Witaj ${playerName ? playerName : "nieznany wojowniku"}`);
