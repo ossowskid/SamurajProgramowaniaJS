@@ -21,4 +21,20 @@ myArrayConst[0] = "Pierwszy const";
 myArrayLet[0] = "Pierwszy let";
 
 // myArrayConst = "coś innego1";
-myArrayLet = "coś innego2";
+// myArrayLet = "coś innego2";
+
+const popularName = nameList[2];
+
+// nameList[3] = "Witomysł";
+// nameList[2] === "Gniewomir";
+
+// nameList[5] = "Nowe imię";
+
+delete nameList[2];
+typeof nameList[2];
+
+const cities = ["Poznań", "Kraków", "Berlin", "Londyn", "Nowy Jork", "Warszawa"];
+cities.length;
+
+const users = [];
+users.length;
