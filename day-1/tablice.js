@@ -36,8 +36,9 @@ typeof nameList[2];
 const cities = ["Poznań", "Kraków", "Berlin", "Londyn", "Nowy Jork", "Warszawa"];
 cities.length;
 
-const users = [];
+const users = ["Adam", "Ania"];
 users.length;
+console.log(users);
 
 const longArray = [];
 longArray.length = 100;
@@ -47,6 +48,16 @@ console.log(cities[cities.length - 1]);
 cities[cities.length] = "Tokio";
 cities[cities.length] = "Pekin";
 
+cities.length += 2;
+cities.length = 3;
+
+users.length = 0;
+console.log(users);
+
 console.log(cities);
 
-
+typeof users;
+cities instanceof String;
+cities instanceof Array;
+cities instanceof Object;
+cities instanceof Function;
