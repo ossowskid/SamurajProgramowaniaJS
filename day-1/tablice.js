@@ -80,4 +80,53 @@ let [time, points, name] = game;
 
 const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Marco"]
 
-console.log(italianUsers);
+// console.log(italianUsers);
+
+// italianUsers.push("Alessandra");
+// console.log(italianUsers);
+
+// italianUsers.unshift("Tomasso");
+// console.log(italianUsers)
+
+// const deletedUser = italianUsers.pop();
+
+// delete italianUsers[italianUsers.length - 1];
+
+// italianUsers.shift();
+// italianUsers.shift();
+// console.log(italianUsers)
+
+// delete italianUsers[0];
+
+// const removeLastElement = italianUsers.pop();
+// const removeFirstElement = italianUsers.shift();
+
+const lengthArrayAfterPush = italianUsers.push("Vito");
+
+const lenghthArrayAfterUnshift = italianUsers.unshift("Apollonia");
+
+//-------------------------------------------------------------
+
+const redColors = ["czerwony", "zachodzącego słońca", "krwisty"];
+
+const greenColors = ["zielony", "trawiasty", "zielony banan"];
+
+const redAndGreenColors = redColors.concat(greenColors);
+
+const redGreenBlueColors = redColors.concat(greenColors, ["morski"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
