@@ -6,7 +6,7 @@ cityList[1] = 'Zabrze';
 
 console.log(cityList.length);
 
-const items = [];
+// const items = [];
 const gameItems = new Array();
 
 const colors = new Array("red", "blue");
@@ -115,12 +115,27 @@ const redAndGreenColors = redColors.concat(greenColors);
 
 const redGreenBlueColors = redColors.concat(greenColors, ["morski"]);
 
+const colorsCollections = [...redColors, ...greenColors, "morski"];
+
+//---------------------------------------------------------------------------
+
+const items = ["zad", "bza", "wus", "xad", "coe", "mer", "tve"]
+items.slice(3);
+items.slice(2, 3);
+// const newItems = items.slice(0);
+
+console.log(items.slice(2, 3));
+
+console.log(items.slice(-3));
+
+const newItems = items.slice(0, 3);
 
 
+//-------------------------------------------------------------------------
 
+const animals = ["dog", "cat", "canary", "mouse"];
 
-
-
+animals.splice(1, 2);
 
 
 
