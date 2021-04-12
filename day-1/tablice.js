@@ -61,3 +61,23 @@ cities instanceof String;
 cities instanceof Array;
 cities instanceof Object;
 cities instanceof Function;
+
+Array.isArray(cities);
+
+let letters = ["a", "d"];
+let characters = letters;
+
+// letters = null;
+// characters = null;
+
+letters = characters = null;
+
+const [nameUser, idUser, ageUser] = ["Sławoj", 210, 54];
+
+const game = [120.12, 87, "dobry wujek"];
+
+let [time, points, name] = game;
+
+const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Marco"]
+
+console.log(italianUsers);
